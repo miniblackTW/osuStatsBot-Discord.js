@@ -1,0 +1,160 @@
+0 verbose cli /usr/local/bin/node /usr/local/bin/npm
+1 info using npm@10.8.1
+2 info using node@v20.14.0
+3 silly config load:file:/usr/local/lib/node_modules/npm/npmrc
+4 silly config load:file:/home/container/.npmrc
+5 silly config load:file:/usr/local/etc/npmrc
+6 verbose title npm install discord.js@latest discord.js @discordjs/rest discord-api-types axios
+7 verbose argv "install" "discord.js@latest" "discord.js" "@discordjs/rest" "discord-api-types" "axios"
+8 verbose logfile logs-max:10 dir:/home/container/.npm/_logs/2024-06-28T23_23_11_437Z-
+9 verbose logfile /home/container/.npm/_logs/2024-06-28T23_23_11_437Z-debug-0.log
+10 silly packumentCache heap:1268776960 maxSize:317194240 maxEntrySize:158597120
+11 silly logfile start cleaning logs, removing 1 files
+12 silly logfile done cleaning log files
+13 silly packumentCache corgi:https://registry.npmjs.org/discord.js cache-miss
+14 http fetch GET 200 https://registry.npmjs.org/discord.js 71ms (cache hit)
+15 silly packumentCache corgi:https://registry.npmjs.org/discord.js set size:3283966 disposed:false
+16 silly idealTree buildDeps
+17 silly fetch manifest @discordjs/rest@^1.7.1
+18 silly packumentCache full:https://registry.npmjs.org/@discordjs%2frest cache-miss
+19 http fetch GET 200 https://registry.npmjs.org/@discordjs%2frest 60ms (cache hit)
+20 silly packumentCache full:https://registry.npmjs.org/@discordjs%2frest set size:5315348 disposed:false
+21 silly fetch manifest discord-api-types@^0.26.1
+22 silly packumentCache full:https://registry.npmjs.org/discord-api-types cache-miss
+23 http fetch GET 200 https://registry.npmjs.org/discord-api-types 83ms (cache hit)
+24 silly packumentCache full:https://registry.npmjs.org/discord-api-types set size:9958372 disposed:false
+25 silly fetch manifest discord.js@14.15.3
+26 silly packumentCache full:https://registry.npmjs.org/discord.js cache-miss
+27 http fetch GET 200 https://registry.npmjs.org/discord.js 206ms (cache hit)
+28 silly packumentCache full:https://registry.npmjs.org/discord.js set size:9622011 disposed:false
+29 silly fetch manifest axios@*
+30 silly packumentCache full:https://registry.npmjs.org/axios cache-miss
+31 http fetch GET 200 https://registry.npmjs.org/axios 344ms (cache miss)
+32 silly packumentCache full:https://registry.npmjs.org/axios set size:undefined disposed:false
+33 silly placeDep ROOT @discordjs/rest@1.7.1 REPLACE for: Blackpvp-Bot@1.0.0 want: ^1.7.1
+34 silly placeDep ROOT axios@1.7.2 OK for: Blackpvp-Bot@1.0.0 want: *
+35 silly placeDep ROOT discord-api-types@0.26.1 REPLACE for: Blackpvp-Bot@1.0.0 want: ^0.26.1
+36 silly placeDep ROOT discord.js@14.15.3 REPLACE for: Blackpvp-Bot@1.0.0 want: 14.15.3
+37 silly fetch manifest follow-redirects@^1.15.6
+38 silly packumentCache full:https://registry.npmjs.org/follow-redirects cache-miss
+39 silly fetch manifest form-data@^4.0.0
+40 silly packumentCache full:https://registry.npmjs.org/form-data cache-miss
+41 silly fetch manifest proxy-from-env@^1.1.0
+42 silly packumentCache full:https://registry.npmjs.org/proxy-from-env cache-miss
+43 http fetch GET 200 https://registry.npmjs.org/follow-redirects 52ms (cache miss)
+44 silly packumentCache full:https://registry.npmjs.org/follow-redirects set size:undefined disposed:false
+45 http fetch GET 200 https://registry.npmjs.org/proxy-from-env 86ms (cache miss)
+46 silly packumentCache full:https://registry.npmjs.org/proxy-from-env set size:undefined disposed:false
+47 http fetch GET 200 https://registry.npmjs.org/form-data 98ms (cache miss)
+48 silly packumentCache full:https://registry.npmjs.org/form-data set size:undefined disposed:false
+49 silly placeDep ROOT follow-redirects@1.15.6 OK for: axios@1.7.2 want: ^1.15.6
+50 silly placeDep ROOT form-data@4.0.0 OK for: axios@1.7.2 want: ^4.0.0
+51 silly placeDep ROOT proxy-from-env@1.1.0 OK for: axios@1.7.2 want: ^1.1.0
+52 silly fetch manifest asynckit@^0.4.0
+53 silly packumentCache full:https://registry.npmjs.org/asynckit cache-miss
+54 silly fetch manifest combined-stream@^1.0.8
+55 silly packumentCache full:https://registry.npmjs.org/combined-stream cache-miss
+56 silly fetch manifest mime-types@^2.1.12
+57 silly packumentCache full:https://registry.npmjs.org/mime-types cache-miss
+58 http fetch GET 200 https://registry.npmjs.org/asynckit 51ms (cache miss)
+59 silly packumentCache full:https://registry.npmjs.org/asynckit set size:undefined disposed:false
+60 http fetch GET 200 https://registry.npmjs.org/combined-stream 52ms (cache miss)
+61 silly packumentCache full:https://registry.npmjs.org/combined-stream set size:undefined disposed:false
+62 http fetch GET 200 https://registry.npmjs.org/mime-types 658ms (cache miss)
+63 silly packumentCache full:https://registry.npmjs.org/mime-types set size:undefined disposed:false
+64 silly placeDep ROOT asynckit@0.4.0 OK for: form-data@4.0.0 want: ^0.4.0
+65 silly placeDep ROOT combined-stream@1.0.8 OK for: form-data@4.0.0 want: ^1.0.8
+66 silly placeDep ROOT mime-types@2.1.35 OK for: form-data@4.0.0 want: ^2.1.12
+67 silly fetch manifest delayed-stream@~1.0.0
+68 silly packumentCache full:https://registry.npmjs.org/delayed-stream cache-miss
+69 silly fetch manifest mime-db@1.52.0
+70 silly packumentCache full:https://registry.npmjs.org/mime-db cache-miss
+71 http fetch GET 200 https://registry.npmjs.org/delayed-stream 28ms (cache miss)
+72 silly packumentCache full:https://registry.npmjs.org/delayed-stream set size:undefined disposed:false
+73 http fetch GET 200 https://registry.npmjs.org/mime-db 48ms (cache miss)
+74 silly packumentCache full:https://registry.npmjs.org/mime-db set size:undefined disposed:false
+75 silly placeDep ROOT delayed-stream@1.0.0 OK for: combined-stream@1.0.8 want: ~1.0.0
+76 silly placeDep ROOT mime-db@1.52.0 OK for: mime-types@2.1.35 want: 1.52.0
+77 silly reify moves {}
+78 silly audit bulk request {
+78 silly audit   '@discordjs/builders': [ '1.8.2' ],
+78 silly audit   'discord-api-types': [ '0.37.83', '0.37.90', '0.26.1' ],
+78 silly audit   '@discordjs/collection': [ '2.1.0', '1.5.3' ],
+78 silly audit   '@discordjs/formatters': [ '0.4.0' ],
+78 silly audit   '@discordjs/rest': [ '2.3.0', '1.7.1' ],
+78 silly audit   '@discordjs/util': [ '1.1.0', '0.3.1' ],
+78 silly audit   undici: [ '6.13.0', '5.28.4' ],
+78 silly audit   '@discordjs/ws': [ '1.1.1' ],
+78 silly audit   '@fastify/busboy': [ '2.1.1' ],
+78 silly audit   '@sapphire/async-queue': [ '1.5.2' ],
+78 silly audit   '@sapphire/shapeshift': [ '3.9.7' ],
+78 silly audit   '@sapphire/snowflake': [ '3.5.3' ],
+78 silly audit   '@tokenizer/token': [ '0.3.0' ],
+78 silly audit   '@types/node': [ '20.14.8' ],
+78 silly audit   '@types/ws': [ '8.5.10' ],
+78 silly audit   '@vladfrangu/async_event_emitter': [ '2.3.0' ],
+78 silly audit   tslib: [ '2.6.3', '2.6.2' ],
+78 silly audit   'fast-deep-equal': [ '3.1.3' ],
+78 silly audit   'file-type': [ '18.7.0' ],
+78 silly audit   ieee754: [ '1.2.1' ],
+78 silly audit   inherits: [ '2.0.4' ],
+78 silly audit   lodash: [ '4.17.21' ],
+78 silly audit   'lodash.snakecase': [ '4.1.1' ],
+78 silly audit   'magic-bytes.js': [ '1.10.0' ],
+78 silly audit   'peek-readable': [ '5.0.0' ],
+78 silly audit   'readable-stream': [ '3.6.2' ],
+78 silly audit   'readable-web-to-node-stream': [ '3.0.2' ],
+78 silly audit   'safe-buffer': [ '5.2.1' ],
+78 silly audit   string_decoder: [ '1.3.0' ],
+78 silly audit   strtok3: [ '7.0.0' ],
+78 silly audit   'token-types': [ '5.0.1' ],
+78 silly audit   'ts-mixer': [ '6.0.4' ],
+78 silly audit   'undici-types': [ '5.26.5' ],
+78 silly audit   'util-deprecate': [ '1.0.2' ],
+78 silly audit   ws: [ '8.17.1' ],
+78 silly audit   axios: [ '1.7.2' ],
+78 silly audit   'discord.js': [ '14.15.3' ],
+78 silly audit   'follow-redirects': [ '1.15.6' ],
+78 silly audit   'form-data': [ '4.0.0' ],
+78 silly audit   'proxy-from-env': [ '1.1.0' ],
+78 silly audit   asynckit: [ '0.4.0' ],
+78 silly audit   'combined-stream': [ '1.0.8' ],
+78 silly audit   'mime-types': [ '2.1.35' ],
+78 silly audit   'delayed-stream': [ '1.0.0' ],
+78 silly audit   'mime-db': [ '1.52.0' ]
+78 silly audit }
+79 silly tarball no local data for mime-db@https://registry.npmjs.org/mime-db/-/mime-db-1.52.0.tgz. Extracting by manifest.
+80 silly tarball no local data for delayed-stream@https://registry.npmjs.org/delayed-stream/-/delayed-stream-1.0.0.tgz. Extracting by manifest.
+81 silly tarball no local data for mime-types@https://registry.npmjs.org/mime-types/-/mime-types-2.1.35.tgz. Extracting by manifest.
+82 silly tarball no local data for combined-stream@https://registry.npmjs.org/combined-stream/-/combined-stream-1.0.8.tgz. Extracting by manifest.
+83 silly tarball no local data for asynckit@https://registry.npmjs.org/asynckit/-/asynckit-0.4.0.tgz. Extracting by manifest.
+84 silly tarball no local data for proxy-from-env@https://registry.npmjs.org/proxy-from-env/-/proxy-from-env-1.1.0.tgz. Extracting by manifest.
+85 silly tarball no local data for form-data@https://registry.npmjs.org/form-data/-/form-data-4.0.0.tgz. Extracting by manifest.
+86 silly tarball no local data for follow-redirects@https://registry.npmjs.org/follow-redirects/-/follow-redirects-1.15.6.tgz. Extracting by manifest.
+87 silly tarball no local data for axios@https://registry.npmjs.org/axios/-/axios-1.7.2.tgz. Extracting by manifest.
+88 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 231ms
+89 silly audit report {}
+90 http fetch GET 200 https://registry.npmjs.org/delayed-stream/-/delayed-stream-1.0.0.tgz 264ms (cache miss)
+91 http fetch GET 200 https://registry.npmjs.org/mime-db/-/mime-db-1.52.0.tgz 275ms (cache miss)
+92 http fetch GET 200 https://registry.npmjs.org/mime-types/-/mime-types-2.1.35.tgz 291ms (cache miss)
+93 http fetch GET 200 https://registry.npmjs.org/combined-stream/-/combined-stream-1.0.8.tgz 296ms (cache miss)
+94 http fetch GET 200 https://registry.npmjs.org/proxy-from-env/-/proxy-from-env-1.1.0.tgz 296ms (cache miss)
+95 http fetch GET 200 https://registry.npmjs.org/form-data/-/form-data-4.0.0.tgz 299ms (cache miss)
+96 http fetch GET 200 https://registry.npmjs.org/follow-redirects/-/follow-redirects-1.15.6.tgz 303ms (cache miss)
+97 http fetch GET 200 https://registry.npmjs.org/asynckit/-/asynckit-0.4.0.tgz 311ms (cache miss)
+98 http fetch GET 200 https://registry.npmjs.org/axios/-/axios-1.7.2.tgz 442ms (cache miss)
+99 silly ADD node_modules/mime-db
+100 silly ADD node_modules/delayed-stream
+101 silly ADD node_modules/mime-types
+102 silly ADD node_modules/combined-stream
+103 silly ADD node_modules/asynckit
+104 silly ADD node_modules/proxy-from-env
+105 silly ADD node_modules/form-data
+106 silly ADD node_modules/follow-redirects
+107 silly ADD node_modules/axios
+108 verbose cwd /home/container
+109 verbose os Linux 5.15.0-112-generic
+110 verbose node v20.14.0
+111 verbose npm  v10.8.1
+112 verbose exit 0
+113 info ok
