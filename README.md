@@ -1,6 +1,8 @@
 # osuStatsBot-Discord.js
 A Discord Bot with slash commands. You can get osu! players' profile with this bot!
 
+#You must install NodeJS first!!!
+
 ## Unarchive the osuStatsBot-Discord.js-main.rar file
 - For .npm and node_modules folders (Required)
 
